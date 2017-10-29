@@ -3,11 +3,11 @@ def fizz_buzz (start_value, end_value, fizz_value, buzz_value):
     message = count
     while count <= end_value:
         if count % fizz_value == 0:
-            message = 'FIZZ'
+            message = 'Fizz'
             if count % buzz_value == 0:
-                message += ' BUZZ'
+                message += ' Buzz'
         elif count % buzz_value == 0:
-            message = 'BUZZ'
+            message = 'Buzz'
         print(message)
         count += 1
         message = count
