@@ -5,7 +5,7 @@ def fizz_buzz (start_value, end_value, fizz_value, buzz_value):
         if count % fizz_value == 0:
             message = 'FIZZ'
             if count % buzz_value == 0:
-                message += 'BUZZ'
+                message += ' BUZZ'
         elif count % buzz_value == 0:
             message = 'BUZZ'
         print(message)
