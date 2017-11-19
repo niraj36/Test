@@ -9,7 +9,5 @@ return_fields = ['Symbol','Last']
 prices = pd.read_csv('C:/_data/Portfolios.csv',usecols=return_fields).drop_duplicates(subset=['Symbol', 'Last'], keep='first')
 
 print(prices)
-print(prices)
-print(fizzy)
 print(fizzy)
 print(data)
