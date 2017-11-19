@@ -11,6 +11,3 @@ def fizz_buzz(start_value, end_value, fizz_value, buzz_value):
         print(message)
         count += 1
         message = count
-
-
-fizz_buzz(1, 10000, 3, 5)
